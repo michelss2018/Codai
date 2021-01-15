@@ -26,4 +26,15 @@ function onSobre(){
     projetos.style.display = "none"
 }
 
+/****************************/
+
+function trocaImgSobre(){
+    var img = document.getElementById("img-michel")
+    img.innerHTML = '<img src="/img/michel.gif" alt="Foto de Perfil" class="card-image mx-auto d-block">'
+}
+
+function trocaImgProjetos(){
+    var img = document.getElementById("img-michel")
+    img.innerHTML = '<img src="/img/michel1.gif" alt="Foto de Perfil" class="card-image mx-auto d-block">'
+}
 

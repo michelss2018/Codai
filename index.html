@@ -26,7 +26,7 @@
         <div class="row container-card">
             <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
                 <div class="card card-perfil">
-                    <div class="img-card-perfil">
+                    <div class="img-card-perfil" id="img-michel">
                         <img src="/img/michel.gif" alt="Foto de Perfil" class="card-image mx-auto d-block">
                     </div>
                     <div class="card-body">
@@ -34,8 +34,8 @@
                         <hr class="hr">
                         <p class="text-center" id="cargo">Cargo</p>
                         <div class="botoes-card">
-                            <button class="btn mr-1" id="btn-sobre" onclick="onSobre()">Sobre</button>
-                            <button class="btn ml-1 btn-card" id="btn-projetos" onclick="onProjetos()">Projetos</button>
+                            <button class="btn mr-1" id="btn-sobre" onclick="onSobre(), trocaImgSobre()">Sobre</button>
+                            <button class="btn ml-1 btn-card" id="btn-projetos" onclick="onProjetos(), trocaImgProjetos()">Projetos</button>
                         </div>
                         <div class="icons-redes-sociais">
                             <div class="links-redes-sociais mt-2">
@@ -67,7 +67,11 @@
 
                 <div class="text" id="textoProjetos">
                     <h1 class="title-text">Projetos</h1>
-                    <h4 class="title-subtitle">Click para acessar os projetos...</h4>
+                    <h4 class="title-subtitle">Click para acessa-los no GitHub...</h4>
+                    <a href="#" target="_blanck">Link Projeto</a>
+                    </p>
+
+                    <h4 class="title-subtitle">Click para vê-los on-line...</h4>
                     <a href="#" target="_blanck">Link Projeto</a>
                     </p>
                 </div>
@@ -79,7 +83,7 @@
         <div class="row" id="footer-elementos">
             <div class="col-md-3 col-lg-3">
                 <h4>Telefone</h4>
-                <p>(47) 9 8456-0635</p>
+                <p>+55 (47) 9 8456-0635</p>
             </div>
             <div class="col-md-3 col-lg-3">
                 <div class="email">
