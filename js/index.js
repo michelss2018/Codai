@@ -1,4 +1,4 @@
-var nome = "Michel Souza Santana"
+var nome = "Michel Souza"
 var nomeHTML = document.getElementById("nome")
 
 var cargo = "Web Developer"
