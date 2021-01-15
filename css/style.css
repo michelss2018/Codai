@@ -197,6 +197,18 @@ p{
     display: none;
 }
 
+#textoProjetos a{
+    display: inline-block;
+    margin: 3px 0.5px;
+    padding: 5px 10px;
+    background-color: rgb(212, 212, 212);
+    text-decoration: none;
+}
+
+#textoProjetos a:hover{
+    background-color: rgb(213, 184, 240);
+}
+
 #link-github{
     text-decoration: none;
 }
