@@ -1,6 +1,14 @@
 @charset "utf-8";
 
+.titulo{
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
 body{
+    width: 98%;
+    height: auto;
+    margin: auto;
     background-color: #f5f5f5;
 }
 
@@ -223,6 +231,119 @@ p{
 
 #cargo{
     color: rgb(255, 255, 255);
+}
+
+/* Folha de currículo */
+div#container{
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto auto 5% auto;
+    padding: 3%;
+    color: rgb(80, 80, 80);
+
+}
+
+div#container h1{
+    width: 100%;
+    height: auto;
+    margin: auto auto 3% auto;
+    text-align: center;
+    font-size: 30pt;
+}
+
+div#container div.box{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 7% auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+div#container div.box div{
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 1%;
+    border: 5px solid rgb(121, 121, 121);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#container div.box div img{
+    width: 40%;
+}
+
+div#container div.box div div.texto{
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+/*------------*/
+div#container div.box div#sistemas{
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+
+div#container div.box div#sistemas div.texto{
+    border: none;
+    text-align: right;
+}
+
+div#container div.box div#sistemas div.texto p{
+    text-align: right;
+}
+
+div#container div.box div#sistemas div.texto button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    border: 1px solid rgb(121, 121, 121);
+    box-shadow: 3px 3px 8px rgb(121, 121, 121);
+}
+
+div#container div.box div#sistemas div.texto button:hover{
+    box-shadow: -2px -2px 8px rgb(121, 121, 121);
+}
+
+/*------------*/
+div#container div.box div#administracao{
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+
+div#container div.box div#administracao div.texto{
+    border: none;
+    text-align: left;
+}
+
+div#container div.box div#administracao div.texto p{
+    text-align: left;
+}
+
+div#container div.box div#administracao div.texto button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    border: 1px solid rgb(121, 121, 121);
+    box-shadow: 3px 3px 8px rgb(121, 121, 121);
+}
+
+div#container div.box div#administracao div.texto button:hover{
+    box-shadow: -2px -2px 8px rgb(121, 121, 121);
 }
 
 

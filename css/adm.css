@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.verde{
+    color: rgba(0, 255, 13, 1);
+}
+
+.laranja{
+    color: rgb(239, 132, 47);
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+
+h1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+h2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bolder;
+}
+
+h3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+table{
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: auto auto 200px auto;
+}
+
+table td:nth-child(1){
+    text-align: left;
+}
+
+table tr{
+    padding: 1%;
+    font-size: 15pt;
+}
+
+table td{
+    padding: 1%;
+    font-size: 15pt;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+td.semestre{
+    background-color: rgb(173, 173, 173);
+}
